@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gridManager: {fileID: 780083337}
+  _levelGenerator: {fileID: 756507198}
 --- !u!212 &50045548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -468,10 +469,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 271de88058941264db26e80605d005c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 2800000, guid: 6df261bb08b3370478e02afc59025723, type: 3}
+  levelImage: {fileID: 2800000, guid: cb20310e7adc75c488e5a51e7aea6413, type: 3}
   colorMappings:
   - _color: {r: 0, g: 0, b: 0, a: 1}
+    _prefab: {fileID: 7603454546025988965, guid: 95e2af79b0d925b459318cfea0d3f2a9, type: 3}
+  - _color: {r: 0.101960786, g: 0.101960786, b: 0, a: 1}
     _prefab: {fileID: 7860974300328475467, guid: 9fd105621fcc50f489653d0e03e0af04, type: 3}
+  - _color: {r: 1, g: 1, b: 0, a: 1}
+    _prefab: {fileID: 7871551218776492166, guid: 5e76961c3acf5bf4fb844f9e39532b95, type: 3}
+  - _color: {r: 0, g: 0, b: 1, a: 1}
+    _prefab: {fileID: 9186690195628519633, guid: 068b402582367bf41a4fb734cac05cf8, type: 3}
+  - _color: {r: 0, g: 0, b: 0, a: 1}
+    _prefab: {fileID: 7603454546025988965, guid: 95e2af79b0d925b459318cfea0d3f2a9, type: 3}
+  player: {fileID: 50045546}
 --- !u!4 &756507199
 Transform:
   m_ObjectHideFlags: 0
