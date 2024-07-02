@@ -12,7 +12,7 @@ public class LevelGenerator : MonoBehaviour
    void Start()
    {
       // Start at level 1
-      _currentLevel = 7;
+      _currentLevel = 1;
 
       GenerateLevel();
    }

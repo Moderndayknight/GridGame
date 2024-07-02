@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-   float TICK_TIME_SECS = 0.25f;
+   float TICK_TIME_SECS = 0.14f;
 
    [SerializeField] GridManager _gridManager;
    [SerializeField] LevelGenerator _levelGenerator;
